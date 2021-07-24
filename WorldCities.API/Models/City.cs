@@ -35,11 +35,13 @@ namespace WorldCities.API.Models
         /// <summary>
         /// city latitude
         /// </summary>
+        [Column(TypeName ="decimal(7,4)")]
         public decimal Lat { get; set; }
 
         /// <summary>
         /// city longitude
         /// </summary>
+        [Column(TypeName ="decimal(7,4)")]
         public decimal Lon { get; set; }
          #endregion
          
@@ -48,7 +50,7 @@ namespace WorldCities.API.Models
          /// </summary>
         [ForeignKey(nameof(Country))]
         public int CountryId { get; set; }
-        public virtual Country Country { get; set; }
+        public virtual Country Country { get; set; } //variáveis virtual não viram campos na tabela do banco de dados
         
     }
 }

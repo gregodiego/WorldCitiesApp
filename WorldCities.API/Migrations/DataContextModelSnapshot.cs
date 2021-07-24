@@ -25,10 +25,10 @@ namespace WorldCities.API.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("Lat")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(7,4)");
 
                     b.Property<decimal>("Lon")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(7,4)");
 
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
