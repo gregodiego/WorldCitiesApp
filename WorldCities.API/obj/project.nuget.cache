@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n0AalRjPXSVR8ieJ/rYN1FbDbQjL8wg/Dgi1BIpFcqfuoQ2iNSyuoT/2TJY5O86bRFGGv6E0VoX4FWSU/iQ3Tw==",
+  "dgSpecHash": "Z6D4fNOUykCGDBei9JGAiVHMtUSXBTBTx9plu9i/rZOsa49/zJQUyHbOayVx1aWHQ0VwGXcj0bTp4ZrxB3ktVQ==",
   "success": true,
   "projectFilePath": "/Users/diego/Documents/Projeto Angular NET 5/WorldCities/WorldCities.API/WorldCities.API.csproj",
   "expectedPackageFiles": [
@@ -109,6 +109,7 @@
     "/Users/diego/.nuget/packages/system.io.filesystem/4.3.0/system.io.filesystem.4.3.0.nupkg.sha512",
     "/Users/diego/.nuget/packages/system.io.filesystem.primitives/4.3.0/system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "/Users/diego/.nuget/packages/system.linq/4.3.0/system.linq.4.3.0.nupkg.sha512",
+    "/Users/diego/.nuget/packages/system.linq.dynamic.core/1.2.11/system.linq.dynamic.core.1.2.11.nupkg.sha512",
     "/Users/diego/.nuget/packages/system.linq.expressions/4.3.0/system.linq.expressions.4.3.0.nupkg.sha512",
     "/Users/diego/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/Users/diego/.nuget/packages/system.objectmodel/4.3.0/system.objectmodel.4.3.0.nupkg.sha512",

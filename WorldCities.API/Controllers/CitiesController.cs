@@ -21,10 +21,10 @@ namespace WorldCities.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<City>> GetCities()
+        public async Task<ApiResult<City>> GetCities(int pageIndex = 0, int pageSize = 10)
         {
-            var cities = await _context.Cities.ToListAsync();
-            return cities;
+            return await ApiResult<City>.CreateAsync(_context.Cities, pageIndex, pageSize);
+            
         }
 
         [HttpGet("{id}")]

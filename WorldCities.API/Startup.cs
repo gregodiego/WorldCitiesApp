@@ -46,6 +46,10 @@ namespace WorldCities.API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WorldCities.API v1"));
             }
 
+            app.UseCors( x => x.AllowAnyOrigin().
+                                AllowAnyHeader().
+                                AllowAnyOrigin());
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
